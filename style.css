@@ -1,4 +1,4 @@
-body{
+body {
     background-color: peachpuff;
 }
 
@@ -6,4 +6,8 @@ body{
     background-color: lightgreen;
     border-radius: 10px;
     height: 50px;
+}
+h1,
+h2 {
+    color: slateblue;
 }
