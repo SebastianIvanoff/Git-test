@@ -2,6 +2,12 @@ body {
     background-color: peachpuff;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 30px;
+}
+
 .btn{
     background-color: lightgreen;
     border-radius: 10px;
@@ -12,13 +18,20 @@ h2 ,
 h1 {
     color: slateblue;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
 
 body {
   background-color: peachpuff;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rem;
+}
+h3{
+  text-align: center;
 }
 
 h2 {
